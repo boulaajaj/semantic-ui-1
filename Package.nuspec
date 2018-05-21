@@ -1,0 +1,29 @@
+<?xml version="1.0"?>
+<package >
+  <metadata>
+    <id>GuimaraesTecnhology.Semantic-Ui</id>
+    <version>2.3.1</version>
+    <authors>Oziel Guimarães</authors>
+    <owners>guimaraestechnology</owners>
+    <licenseUrl>http://opensource.org/licenses/MIT</licenseUrl>
+    <projectUrl>https://github.com/guimaraes-technology/semantic-ui</projectUrl>
+    <iconUrl>https://lh3.googleusercontent.com/7w2qHhlCGv_JR38wGQG6pktgcLcVMt9T6sgyh8fdDFPL2uUMxhai6h8NZs6uLIpzm0Rtnj_OV6O9D96oGPmgm6Bgpkp7cm4XQKNJAlIdY62tfIlVz30a2zgsvUPKwhxtrlrRRenxYKDG0fVloLMNwDbT4uuE8sQiqjLZkx5s7UbgLfWkdaWf3tGibIwS6Iktk_70gU-JM8IUdHx-337_gxm_GZDBXTAIu6qFkl9Pa2zLq_mNAcSnxWD2i52YhSuCg4T_wj1qrBFXIoU9eIpa7FxfSSaf4jTtvfH-jhPCCsFazRymOi97cKsN56aNNYtH0OfyjYqnTVmgK3vQLa-f1nYJV6jdYx60J3cuk-dPHTj-YSJJD9xlO9yasrOiR_FmanDpnkZxGkwhwYqiI9_h151UkBgiDxSZwTYews5ko9yp1kJQQSaw4JnVGFtab1H1grG3PgFWOFnYYzUCpItPJ1wnZVQ5GpwJqPxagn_4f_yxEDBhVtn-ziny8au-C8M2AeaZaG_IVJqp7ZBnSnIAXwmfhjRLaVr_pUdGdGTc5CoWgu94qy2Hlfi7yrzr2K9aV6AhyfquJX56DPoc4in205zx7eMSdgnZh3dnPanK=w574-h642-no</iconUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <description>Semantic is a UI component framework based around useful principles from natural language. http://www.semantic-ui.com</description>
+    <releaseNotes>https://github.com/guimaraes-technology/semantic-ui</releaseNotes>
+    <copyright>Copyright 2018</copyright>
+    <tags>Semantic-Ui css Guimaraes Technology</tags>
+    <dependencies>
+      <dependency id="Microsoft.AspNet.Web.Optimization" version="1.1.3" />
+    </dependencies>
+  </metadata>
+
+  <files>
+    <file src="src\GuimaraesTecnhology.Semantic-Ui\App_Start\BundleConfig.cs" target="content\App_Start\BundleConfig.cs" />
+    <file src="src\GuimaraesTecnhology.Semantic-Ui\Global.asax" target="content\Global.asax" />
+    <file src="src\GuimaraesTecnhology.Semantic-Ui\Content\semantic.css" target="content\Content\semantic.css" />
+    <file src="src\GuimaraesTecnhology.Semantic-Ui\Content\semantic.min.css" target="content\Content\semantic.min.css" />
+    <file src="src\GuimaraesTecnhology.Semantic-Ui\Scripts\semantic.js" target="content\Scripts\semantic.js" />
+    <file src="src\GuimaraesTecnhology.Semantic-Ui\Scripts\semantic.min.js" target="content\Scripts\semantic.min.js" />
+  </files>
+</package>
